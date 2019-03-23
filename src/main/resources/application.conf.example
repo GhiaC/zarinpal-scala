@@ -1,0 +1,12 @@
+transaction {
+  zarinpal {
+    endpoints {
+      payment-request = "https://www.zarinpal.com/pg/rest/WebGate/PaymentRequest.json"
+      startpay = "https://www.zarinpal.com/pg/StartPay/"
+      verification = "https://www.zarinpal.com/pg/rest/WebGate/PaymentVerification.json"
+    }
+    merchant-id = "xxxx-xxxx-xxxx-xxxx-xxxx"
+    callback-url = "https://ghiasi.me/verify"
+    request-time-out-milisecond = 10000
+  }
+}
